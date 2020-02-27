@@ -3,6 +3,8 @@ class Figura{
     //***********propiedades********//
     private $puntos;
     
+    //************    TO DO
+    
     //********CONSTRUCTOR**************//
     public function __construct(Punto ...$puntos){
         if (count($puntos)>=3)
